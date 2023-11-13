@@ -1,0 +1,1 @@
+aws dynamodb query --table-name sales-order-ProcessingState  --key-condition-expression "id = :id" --expression-attribute-values  "{\":id\":{\"S\":\"85\"}}" > so_dynamodb.txt

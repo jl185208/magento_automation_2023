@@ -1,0 +1,1 @@
+aws dynamodb query --table-name article-master-sync-ProcessingState  --key-condition-expression "id = :id" --expression-attribute-values  "{\":id\":{\"S\":\"Sample101\"}}" > dynamodb.txt
