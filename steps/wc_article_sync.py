@@ -19,6 +19,7 @@ def step_impl(context):
     browser.find_element(By.ID, 'wp-submit').click()
     time.sleep(20)
     #this is a test
+    #this is a test 2
 @step('article should be in woocom ocs')
 def step_impl(context):
     pass
